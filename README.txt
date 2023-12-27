@@ -14,17 +14,17 @@ you can use for pretty much whatever.
 
 (* = not included).
 
-AJ
+AJ.
 aj@lkn.io | @ajlkn
 
 
 Credits:
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		Unsplash (unsplash.com).
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		Font Awesome (fontawesome.io).
 
 	Other:
 		jQuery (jquery.com)
