@@ -1,0 +1,85 @@
+[33mcommit e175e37438d8cb764a526755eab35fa8665612ab[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-one[m[33m)[m
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Wed Dec 27 13:52:16 2023 -0300
+
+    ! removed
+
+[33mcommit ea89d20f06f62526f3efd75fa1d8a2c9f47dd785[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: df7cf89 2915235
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Tue Dec 26 22:27:21 2023 -0300
+
+    Merge branch 'master' of https://github.com/mstilde/portfolio
+
+[33mcommit df7cf89a944d54d38c7fb18379a01eac749f8f5c[m
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Tue Dec 26 22:26:23 2023 -0300
+
+    merge
+
+[33mcommit 29152354bf8f925ecd687a2c8dbb3b019c188cea[m
+Author: Matias Buttari <matiasemanuelbuttari@hotmail.com>
+Date:   Tue Dec 26 22:24:16 2023 -0300
+
+    changes
+
+[33mcommit b5709b9ea5d81b495382c07b879955ce0144aae6[m
+Merge: 4ab9edd 19f5bd5
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 17:01:28 2023 -0300
+
+    Merge branch 'master' of https://github.com/mstilde/portfolio
+
+[33mcommit 19f5bd5d58b12d363905642295344c23bd1a842e[m
+Author: Matias Buttari <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 16:59:46 2023 -0300
+
+    Update index.html again
+
+[33mcommit 4ab9edd616627f80facae65c9d33033a94ba8a87[m
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 16:59:01 2023 -0300
+
+    little UTF update
+
+[33mcommit c96a65d00edd6758d812a6637f4393702dfc4d22[m
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 16:52:08 2023 -0300
+
+    new comment update added
+
+[33mcommit ce4a5321a0fafbdcc3d97a01bd24f48095e26a98[m
+Author: Matias Buttari <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 16:48:54 2023 -0300
+
+    Update index.html
+
+[33mcommit 9227891861a34cb666ca3d0030ae7e88791630f9[m
+Author: Matias Buttari <matiasemanuelbuttari@hotmail.com>
+Date:   Sun Dec 24 15:59:14 2023 -0300
+
+    Update README.txt
+
+[33mcommit 6ddba57fc5c2cc298a8e3aa4759ce915469a45a2[m
+Author: mstilde <135075743+mstilde@users.noreply.github.com>
+Date:   Fri Dec 22 23:15:39 2023 -0300
+
+    Delete CNAME
+
+[33mcommit c89dc1f018ffb1f4dd9c31aaec92e25a8ad52e78[m
+Author: mstilde <135075743+mstilde@users.noreply.github.com>
+Date:   Fri Dec 22 23:15:12 2023 -0300
+
+    Update CNAME
+
+[33mcommit ca2c6e29103c7baf8154aa514b57240991ba1883[m
+Author: mstilde <135075743+mstilde@users.noreply.github.com>
+Date:   Fri Dec 22 23:14:42 2023 -0300
+
+    Create CNAME
+
+[33mcommit 5f9def0208eaa0b5bbf8a475d65006fd2d7d112e[m
+Author: msintilde <matiasemanuelbuttari@hotmail.com>
+Date:   Fri Dec 22 23:10:30 2023 -0300
+
+    adding portfolio
