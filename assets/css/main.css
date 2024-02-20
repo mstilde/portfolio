@@ -1802,6 +1802,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
+		max-width: 80vw;
 		margin-bottom: 2em;
 	}
 
