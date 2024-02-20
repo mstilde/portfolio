@@ -1810,6 +1810,7 @@ input, select, textarea {
 		header.major > :first-child {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
+			text-align: left;
 		}
 
 			header.major > :first-child:after {
