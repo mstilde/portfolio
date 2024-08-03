@@ -2257,11 +2257,11 @@ input, select, textarea {
 
 		.slider-wrapper {
 			position: relative;
-			max-width: 48rem;
+			max-width: 49rem;
 			margin: 0 auto;
 		}
 
-			.slider {
+			.sliderSql {
 				display: flex;
 				aspect-ratio: 16/16;
 				overflow: auto;
@@ -2272,7 +2272,24 @@ input, select, textarea {
 				border-radius: 0.5rem;
 			}
 
-				.slider img {
+			.sliderPm {
+				display: flex;
+				aspect-ratio: 16/14;
+				overflow: auto;
+				
+				scroll-snap-type: x mandatory;
+				scroll-behavior: smooth;
+				box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,.25);
+				border-radius: 0.5rem;
+			}
+
+				.sliderSql img {
+					flex: 1 0 100%;
+					scroll-snap-align: start;
+					object-fit: cover;
+				}
+
+				.sliderPm img {
 					flex: 1 0 100%;
 					scroll-snap-align: start;
 					object-fit: cover;
@@ -2901,27 +2918,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #5680af;
+				background-color: #3f6999;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #5680af;
+				background-color: #56af82;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #af9056;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #104077;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #5680af;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #5680af;
 			}
 
 		@media screen and (max-width: 1280px) {

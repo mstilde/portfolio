@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matias Buttari - Project 4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Matias Buttari</strong> <span>QA/QC</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#contact" class="scrolly">Contact</a></li>
+							<li><a href="index.html#main" class="scrolly">Projects</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/bannerPm.png" alt="" />
+							</span>
+							<header class="major">
+								<h1>Postman - Automation with Tello API</h1>
+							</header>
+							<div class="content">
+								<p>Performing API automation testing using the Trello API's functionalities</p>
+							</div>
+							<div class="actions">
+								<ul>
+									<h3>Key Features:</h3>
+									<li>Postman</li>
+									<li>Test suite design</li>
+									<li>Response validation</li>
+									<li>Newman CLI</li>
+									<li>Continuous integration</li>
+									<li>Diverse Test Scenarios</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				<!-- Main -->
+					<div id="main">
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Intoduction
+										</h2>
+									</header>
+									<p>
+										Postman is a powerful tool for API development, testing, and automation. It simplifies the process of creating, testing, and documenting APIs, making it a favorite among developers and testers alike.
+									</p>
+									<p>
+										For this project, we utilized the Trello API to demonstrate the capabilities of Postman in automating API tests. Trello, a popular project management tool, provides a rich API that allows us to interact with boards, cards, and other elements programmatically.									
+									</p>
+								</div>
+							</section>
+						<!-- Two -->
+							<section id="Two">
+								<div class="inner">
+									<header class="major">
+										<h2>Test Suite Overview</h2>
+									</header>
+									<p>The test suite I've created is designed to cover essential functionalities of the Trello API, focusing on the creation, manipulation, and deletion of boards and their elements. Here’s a breakdown of the test suite:</p>
+									<div class="image">
+										<img src="images/TestSuite-Postman.png" alt="" data-position="center center" id="uml_image"/>
+									</div>
+								</div>								
+							</section>	
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Test Scripts for Automation</h2>
+									</header>
+									<p>To ensure the accuracy and reliability of our tests, we use Postman scripts for automation. These scripts validate responses and handle various tasks programmatically.
+									</p>
+									<p>For instance, we check if the response status code is 200 to ensure that the request was successful. This step is crucial for verifying that each API request is functioning as expected before proceeding to subsequent steps.
+									</p>
+									<div class="image">
+										<img src="images/Scripts-Postman.png" alt="" data-position="center center" />
+									</div>
+								</div>								
+							</section>
+						<!-- Four -->
+							<section id="four">
+								<div class="inner">
+									<header class="major">
+										<h2>Script Writing with pm.response.json</h2>
+									</header>
+									<p>One of the powerful features of Postman is the ability to parse responses using pm.response.json(). This function allows us to access and manipulate response data easily.</p>
+									<p>By storing the response in a variable, we can validate its contents, extract specific values, and use these values in subsequent requests. This capability is essential for creating workflows that involve multiple, dependent requests.</p>
+									<section class="container">
+										<div class="slider-wrapper">
+											<div class="sliderPm">
+												<img id="slide-1" src="images/responseValidation-Postman.png" alt="query 1">
+												<img id="slide-2" src="images/responseValidation2-Postman.png" alt="query 2">
+												<img id="slide-3" src="images/responseValidation3-Postman.png" alt="query 3">
+											</div>
+											<div class="slider-nav">
+												<a href="#slide-1"></a>
+												<a href="#slide-2"></a>
+												<a href="#slide-3"></a>
+											</div>
+										</div>
+									</section>
+								</div>								
+							</section>
+						<!-- Five -->
+							<section id="five">
+								<div class="inner">
+									<header class="major">
+										<h2>Importance of Environment Variables</h2>
+									</header>
+									<p>Postman’s use of global, collection, and environment variables is a key feature that enhances test flexibility and reusability.
+									</p>
+									<p>Environment variables help manage different configurations for various environments (e.g., development, staging, production). Global and collection variables offer broader scope usage, making it easier to maintain consistency across multiple requests and test scenarios.
+									</p>
+									<div class="image">
+										<img src="images/settingVariables-Postman.png" alt="" data-position="center center" />
+										</div>
+								</div>								
+							</section>	
+						<!-- Six -->
+							<section id="six">
+								<div class="inner">
+									<header class="major">
+										<h2>Continuous Integration with Newman</h2>
+									</header>
+									<p>For continuous integration (CI), Postman tests can be executed using Newman, Postman's command-line collection runner. Newman allows integration with CI/CD pipelines, enabling automated and repeatable testing processes.
+									</p>
+									<p>Additionally, Newman supports various reporting templates, facilitating the generation of detailed test reports in formats like HTML, JSON, and more. These reports are invaluable for tracking test results and identifying issues.
+									</p>
+									<div class="image">
+										<img src="images/reports-Postman.png" alt="" data-position="center center" />
+										</div>
+								</div>								
+							</section>	
+						<!-- Seven -->
+							<section id="Seven">
+								<div class="inner">
+									<header class="major">
+										<h2>Conclusion</h2>
+									</header>
+									<p>Postman, combined with the Trello API, demonstrates the power and efficiency of automated API testing. By creating a comprehensive test suite, utilizing scripts for validation and workflows, and leveraging environment variables, we can ensure robust and reliable API tests. Integrating these tests into CI/CD pipelines with Newman further enhances our ability to maintain high-quality software through continuous testing and detailed reporting.
+									</p>
+									<p>This project showcases the full potential of Postman in a real-world scenario, highlighting its importance in modern API development and testing workflows.
+									</p>
+								</div>								
+							</section>	
+					
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/mstilde" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/matias-buttari/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
